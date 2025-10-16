@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+
+}
 .container{
     width: 90%;
     margin: 0 auto;
@@ -21,7 +29,7 @@ nav .logo{
 nav .logo img{
     max-width: 100%;
 }
-nav .navbar{}
+/* nav .navbar{} */
 nav .navbar a{
     text-decoration: none;
     color: white;
@@ -29,11 +37,69 @@ nav .navbar a{
     margin: 7px;
     font-size: 20px;
 }
-nav .headerbtn{}
+/* nav .headerbtn{} */
 nav .headerbtn button{
     color: white;
     border: 2px solid white;
     background: transparent;
     font-size: 18px;
     padding: 8px 15px;
+    border-radius: 6px;
+}
+
+.banner{}
+.banner .banner-content{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner .banner-content .banner-text{
+    flex-basis: 40%;
+}
+.banner .banner-content .banner-text h1{
+        font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.banner .banner-content .banner-text p{
+    line-height: 25px;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.banner .banner-content .banner-text .banner-btn1{
+  color: #ff6b81;
+    border: 2px solid white;
+    background: white;
+    font-size: 18px;
+    padding: 10px 18px; 
+    border-radius: 6px;
+    
+}
+.banner .banner-content .banner-text .banner-btn1:hover{
+    background: #ff6b81;
+    color: white;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-text .banner-btn2:hover{
+    background: white;
+    color: #ff6b81;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-text .banner-btn2{
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px 18px; 
+    border-radius: 6px;
+    
+
+}
+.banner .banner-content .banner-img{
+    flex-basis: 60%;
+}
+.banner .banner-content .banner-img img{
+    max-width: 100%;
 }
