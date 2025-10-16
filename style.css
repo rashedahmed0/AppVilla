@@ -1,0 +1,39 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    background-color: #ff6b81;
+    color: white;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 160px;
+
+}
+nav .logo img{
+    max-width: 100%;
+}
+nav .navbar{}
+nav .navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 7px;
+    font-size: 20px;
+}
+nav .headerbtn{}
+nav .headerbtn button{
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 18px;
+    padding: 8px 15px;
+}
