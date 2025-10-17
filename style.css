@@ -12,11 +12,41 @@
     padding: 20px;
 }
 
+
+/* title */
+.title{
+    text-align: center;
+    margin: 0 auto;
+    width: 42%;
+
+
+}
+.title h5{
+  color: #ff6b81;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.title h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.title p{
+    font-size: 15px;
+    color: #777;
+
+}
+/* header section */
 header{
     background-color: #ff6b81;
     color: white;
     padding: 20px;
 }
+
+/* menu section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -47,6 +77,8 @@ nav .headerbtn button{
     border-radius: 6px;
 }
 
+
+/* banner section */
 .banner{}
 .banner .banner-content{ 
     display: flex;
@@ -103,3 +135,8 @@ nav .headerbtn button{
 .banner .banner-content .banner-img img{
     max-width: 100%;
 }
+
+/* feature section */
+
+
+
