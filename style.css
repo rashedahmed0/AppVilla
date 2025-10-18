@@ -58,7 +58,9 @@ nav .navbar a {
   color: white;
   padding: 5px;
   margin: 7px;
-  font-size: 20px;
+  font-size: 18px;
+}
+nav .navbar a:hover {
 }
 /* nav .headerbtn{} */
 nav .headerbtn button {
@@ -68,6 +70,12 @@ nav .headerbtn button {
   font-size: 18px;
   padding: 8px 15px;
   border-radius: 6px;
+}
+nav .headerbtn button:hover {
+  color: #ff6b81;
+  border: 2px solid white;
+  background: white;
+  transition: 0.5s;
 }
 
 /* banner section */
@@ -106,11 +114,6 @@ nav .headerbtn button {
   color: white;
   transition: 0.5s;
 }
-.banner .banner-content .banner-text .banner-btn2:hover {
-  background: white;
-  color: #ff6b81;
-  transition: 0.5s;
-}
 .banner .banner-content .banner-text .banner-btn2 {
   color: white;
   border: 2px solid white;
@@ -118,6 +121,11 @@ nav .headerbtn button {
   font-size: 18px;
   padding: 10px 18px;
   border-radius: 6px;
+}
+.banner .banner-content .banner-text .banner-btn2:hover {
+  background: white;
+  color: #ff6b81;
+  transition: 0.5s;
 }
 .banner .banner-content .banner-img {
   flex-basis: 60%;
@@ -173,4 +181,38 @@ nav .headerbtn button {
   font-size: 15px;
   color: #777;
   margin: 0;
+}
+
+/* trusted section */
+.trusted {
+  background-color: #ff6b81;
+  padding: 50px 0;
+  margin: 50px 0;
+  text-align: center;
+  color: white;
+}
+.t-container {
+  /* width: 60%; */
+}
+.trusted h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.trusted p {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.t-nubmer {
+  display: flex;
+  justify-content: center;
+}
+.t-div {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 60px;
+}
+.t-div h2 {
+  font-size: 35px;
+}
+.t-div p {
 }
