@@ -101,7 +101,7 @@ nav .headerbtn button:hover {
   font-size: 18px;
   margin-bottom: 40px;
 }
-.banner .banner-content .banner-text .banner-btn1 {
+.banner-btn1 {
   color: #ff6b81;
   border: 2px solid white;
   background: white;
@@ -232,6 +232,10 @@ nav .headerbtn button:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 25px 20px;
 }
+.p-card:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
 .p-card h3 {
   font-size: 17px;
   font-weight: 600;
@@ -264,4 +268,56 @@ nav .headerbtn button:hover {
   font-size: 17px;
   border-radius: 5px;
   margin: 20px 0;
+}
+/* license section */
+.license {
+  background-color: #ff6b81;
+  padding: 100px 0;
+  /* margin: 50px 0; */
+  text-align: center;
+  color: white;
+}
+/* footer section  */
+footer {
+  padding: 100px 0;
+  background-color: black;
+  color: white;
+}
+.footer-content {
+  display: flex;
+}
+.footer-content .logo {
+  line-height: 30px;
+  flex-basis: 40%;
+}
+.footer-content .logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+.footer-content .logo p {
+  font-size: 15px;
+}
+.social {
+}
+.social i {
+  margin-right: 8px;
+}
+.social i:hover {
+  color: #ff6b81;
+  transition: 0.5s;
+}
+.f-link {
+  flex-basis: 15%;
+  text-align: center;
+  line-height: 35px;
+}
+.f-link h1 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.f-link p {
+  font-size: 14px;
+}
+.f-link p:hover {
+  color: #ff6b81;
 }
