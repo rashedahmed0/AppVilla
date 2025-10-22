@@ -216,3 +216,52 @@ nav .headerbtn button:hover {
 }
 .t-div p {
 }
+
+/* pricing section  */
+.pricing {
+  margin: 50px 0;
+}
+
+.p-container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.p-card {
+  flex-basis: 20%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px 20px;
+}
+.p-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.p-card h5 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.p-card p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #777;
+  line-height: 20px;
+  display: block;
+  padding-bottom: 6px;
+}
+
+.p-card p i {
+  color: #ff6b81;
+  margin-right: 5px;
+}
+.p-card button {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 10px;
+  background: black;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
